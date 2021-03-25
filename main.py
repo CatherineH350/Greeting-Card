@@ -28,8 +28,10 @@ artist.write("Happy Thursday!", font = style, align = "center")
 
 artist.goto(0,70)
 
+name = input("Hi! What's your name? ")
+
 style2 = ("Verdana", 15, "normal")
-artist.write("Hello to whoever reads this", font = style2, align = "center")
+artist.write("Hello, " + name, font = style2, align = "center")
 
 artist.goto(0,50)
 
